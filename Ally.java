@@ -1,6 +1,6 @@
 package ally;
 
-public class Ally {
+public final class Ally {
   /*
    * Don't let anyone instantiate this class.
    */
