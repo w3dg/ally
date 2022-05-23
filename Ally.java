@@ -1,7 +1,12 @@
 package ally;
 
 public class Ally {
-
+  /*
+   * Don't let anyone instantiate this class.
+   */
+  private Ally() {
+  }
+  
   // print elements of arrays
   public static void printArray(int[] arr) {
     for (int x : arr)
